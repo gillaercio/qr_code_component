@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+:root {
+  --slate-900: hsl(218, 44, 22);
+  --slate-500: hsl(216, 15, 48);
+  --slate-300: hsl(212, 45, 89);
+  --white: hsl(0, 0, 100);
+
+  --space-500: 4em;
+  --space-300: 2.4em;
+  --space-200: 1.6em;
+
+  --font-family: "Outfit", Arial, Helvetica, sans-serif;
+  --text-md: bold 2.2em/120% var(--font-family);
+  --text: 1.5em/140% var(--font-family);
+}
