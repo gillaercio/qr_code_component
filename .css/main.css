@@ -1,2 +1,40 @@
 @charset "UTF-8";
 
+body {
+  background-color: var(--slate-300);
+
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+#content {
+  width: 320px;
+  height: 499px;
+
+  /* display: flex;
+  flex: column nowrap;
+  justify-content: center;
+  align-items: center; */
+
+  background-color: var(--white);
+  background-color: red;
+  border-radius: 20px;
+
+  margin: auto;
+  vertical-align: middle;
+
+  /* top: 30%;
+  left: 35%;
+  position: absolute;
+  transform: translate(-25%, -25%); */
+}
+
+#content img {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  margin: auto;
+}
