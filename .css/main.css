@@ -6,35 +6,57 @@ body {
   width: 100vw;
   height: 100vh;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 #content {
   width: 320px;
   height: 499px;
 
-  /* display: flex;
-  flex: column nowrap;
-  justify-content: center;
-  align-items: center; */
+  display: flex;
+  flex-direction: column;
 
   background-color: var(--white);
-  background-color: red;
   border-radius: 20px;
-
-  margin: auto;
-  vertical-align: middle;
-
-  /* top: 30%;
-  left: 35%;
-  position: absolute;
-  transform: translate(-25%, -25%); */
 }
 
 #content img {
   width: 288px;
   height: 288px;
   border-radius: 10px;
-  padding: 16px;
+  margin: 16px;
   display: flex;
-  margin: auto;
+}
+
+#content h1 {
+  font: var(--text-md);
+  color: var(--slate-900);
+}
+
+#content p {
+  font: var(--text);
+  color: var(--slate-500);
+  letter-spacing: 0.2px;
+}
+
+#content h1, #content p {
+  padding: 16px;
+  text-align: center;
+}
+
+.attribution {
+  font: var(--text);
+}
+
+.attribution a {
+  text-decoration: none;
+  color: var(--slate-900);
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+  color: var(--slate-500);
 }
